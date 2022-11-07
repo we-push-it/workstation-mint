@@ -14,6 +14,11 @@ Planned:
 
 ... we will see ;)
 
+# What will be installed?
+
+ - some console tools like: figlet, htop, curl, ...
+ - visual studio code
+
 # Installation
 
 Just clone the repo and run the ansible scripts or do with the installer.
