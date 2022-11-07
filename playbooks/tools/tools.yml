@@ -1,0 +1,20 @@
+---
+- name: Installing common used tools
+  hosts: localhost
+  tasks:
+    - name: Install common used tools
+      apt:
+        pkg: 
+          - nvtop
+          - psmisc
+          - htop
+          - vim
+          - curl
+          - wget
+          - cowsay
+          - figlet
+          - rxvt-unicode
+          - beep
+          - vlc
+        state: latest
+        update_cache: yes

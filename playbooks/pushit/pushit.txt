@@ -1,0 +1,11 @@
+# created with ansible
+
+LETS PUSH IT
+
+fqdn: {{ ansible_facts['fqdn'] }}
+nodename: {{ ansible_facts['nodename'] }}
+hostname: {{ ansible_facts['hostname'] }}
+codename: {{ ansible_facts['lsb']['codename'] }}
+major release: {{ ansible_facts['lsb']['major_release'] }}
+id: {{ ansible_facts['lsb']['id'] }}
+
