@@ -8,12 +8,13 @@
           - nvtop
           - psmisc
           - htop
+          - iftop
+          - iotop
           - vim
           - curl
           - wget
           - cowsay
           - figlet
-          - rxvt-unicode
           - beep
           - vlc
         state: latest
