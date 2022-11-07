@@ -17,5 +17,7 @@
           - figlet
           - beep
           - vlc
+          - rsync
+          - git
         state: latest
         update_cache: yes

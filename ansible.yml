@@ -1,6 +1,6 @@
 ---
+- import_playbook: playbooks/maintenance/maintenance.yml
 - import_playbook: playbooks/tools/tools.yml
 - import_playbook: playbooks/pushit/pushit.yml
 - import_playbook: playbooks/vscode/vscode.yml
-- import_playbook: playbooks/maintenance/maintenance.yml
 - hosts: localhost
