@@ -1,0 +1,20 @@
+---
+- name: Setup Wallpaper
+  hosts: localhost
+  tasks:
+    - name: Create wallpapers directory
+      file:
+        path: /usr/share/backgrounds/pushit
+        state: directory
+        owner: 'root'
+        group: 'root' 
+        mode: 0755
+        recurse: yes
+    - name: copy the wallpapers to remote
+      ansible.builtin.copy:
+        src: ./images/
+        dest: /usr/share/backgrounds/pushit
+        remote_src: no
+        directory_mode: yes
+        owner: 'root'
+        group: 'root' 
