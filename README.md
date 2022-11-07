@@ -7,8 +7,6 @@ Planned:
 - bashrc
 - git setup
 - some shortcuts
-- toolset, i.e. for screenshots etc
-- wallpaper
 - yii2 Bash Completion: https://raw.githubusercontent.com/yiisoft/yii2/master/contrib/completion/bash/yii
 - ...
 
@@ -16,8 +14,13 @@ Planned:
 
 # What will be installed?
 
+ - git setup
  - some console tools like: figlet, htop, curl, ...
+ - install flameshot: best screenshot tool
  - visual studio code
+ - copy PUSH IT Wallpapers tu /usr/share/backgrounds 
+
+for more details check the playbooks by your own
 
 # Installation
 
