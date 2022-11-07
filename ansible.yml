@@ -1,4 +1,5 @@
 ---
 - import_playbook: playbooks/tools/tools.yml
 - import_playbook: playbooks/pushit/pushit.yml
+- import_playbook: playbooks/vscode/vscode.yml
 - hosts: localhost

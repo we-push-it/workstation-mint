@@ -1,0 +1,16 @@
+---
+- name: install visual studio code
+  hosts: localhost
+  tasks:
+    - name: Add an Apt signing key, uses whichever key is at the URL
+      ansible.builtin.apt_key:
+        url: https://packages.microsoft.com/keys/microsoft.asc
+        state: present
+
+    - name: Place apt repository
+      ansible.builtin.apt_repository:
+        repo: "deb https://packages.microsoft.com/repos/code stable main"
+
+    - name: Install visual studio code
+      apt:
+        pkg: code
