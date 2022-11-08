@@ -32,3 +32,6 @@ Login as root via ssh or local and run:
 
     curl https://raw.githubusercontent.com/we-push-it/workstation-mint/master/install.sh | bash
 
+or via user with sudo:
+
+    curl https://raw.githubusercontent.com/we-push-it/workstation-mint/master/install.sh | sudo bash
