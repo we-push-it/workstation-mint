@@ -19,5 +19,6 @@
           - vlc
           - rsync
           - git
+          - flameshot
         state: latest
         update_cache: yes
