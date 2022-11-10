@@ -1,0 +1,10 @@
+---
+- name: Purge Libreoffice
+  hosts: localhost
+  tasks:
+    - name: remove and purge libreoffice packages
+      apt:
+        pkg: 
+          - libreoffice*
+        state: absent
+        purge: yes

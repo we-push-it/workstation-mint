@@ -42,3 +42,6 @@ Remove Thunderbird
 
 sudo ANSIBLE_NOCOWS=1 ansible-playbook -v ./playbooks/purge-thunderbird/purge-thunderbird.yml
 
+Remove Libreoffice
+
+sudo ANSIBLE_NOCOWS=1 ansible-playbook -v ./playbooks/purge-libreoffice/purge-libreoffice.yml
