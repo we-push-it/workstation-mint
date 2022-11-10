@@ -35,3 +35,10 @@ Login as root via ssh or local and run:
 or via user with sudo:
 
     curl https://raw.githubusercontent.com/we-push-it/workstation-mint/master/install.sh | sudo bash
+
+# Remove some (maybe) unwanted Tools?
+
+Remove Thunderbird
+
+sudo ANSIBLE_NOCOWS=1 ansible-playbook -v ./playbooks/purge-thunderbird/purge-thunderbird.yml
+

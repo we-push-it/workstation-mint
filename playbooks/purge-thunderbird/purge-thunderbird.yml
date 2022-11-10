@@ -1,0 +1,10 @@
+---
+- name: Purge Thunderbird
+  hosts: localhost
+  tasks:
+    - name: remove and purge thunderbird package
+      apt:
+        pkg: 
+          - thunderbird
+        state: absent
+        purge: yes
