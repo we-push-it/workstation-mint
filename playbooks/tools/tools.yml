@@ -20,5 +20,6 @@
           - rsync
           - git
           - flameshot
+          - caffeine
         state: latest
         update_cache: yes
