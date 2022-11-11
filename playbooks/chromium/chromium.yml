@@ -1,0 +1,7 @@
+---
+- name: install chromium Browser
+  hosts: localhost
+  tasks:
+    - name: Install chromium browser package
+      apt:
+        pkg: chromium

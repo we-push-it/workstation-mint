@@ -45,3 +45,9 @@ sudo ANSIBLE_NOCOWS=1 ansible-playbook -v ./playbooks/purge-thunderbird/purge-th
 Remove Libreoffice
 
 sudo ANSIBLE_NOCOWS=1 ansible-playbook -v ./playbooks/purge-libreoffice/purge-libreoffice.yml
+
+# Install additional things
+
+Chromium
+
+sudo ANSIBLE_NOCOWS=1 ansible-playbook -v ./playbooks/chromium/chromium.yml
