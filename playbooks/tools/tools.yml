@@ -21,5 +21,6 @@
           - git
           - flameshot
           - caffeine
+          - jq
         state: latest
         update_cache: yes
