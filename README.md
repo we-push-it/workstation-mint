@@ -18,7 +18,7 @@ Planned:
  - some console tools like: figlet, htop, curl, ...
  - install flameshot: best screenshot tool
  - visual studio code
- - copy PUSH IT Wallpapers tu /usr/share/backgrounds 
+ - copy PUSH IT Wallpapers to /usr/share/backgrounds 
 
 for more details check the playbooks by your own
 
