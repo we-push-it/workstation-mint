@@ -3,7 +3,7 @@
   hosts: localhost
   tasks:
     - name: Create wallpapers directory
-      file:
+      ansible.builtin.file:
         path: /usr/share/backgrounds/pushit
         state: directory
         owner: 'root'
